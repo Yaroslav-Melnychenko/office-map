@@ -1,0 +1,20 @@
+.container {
+  max-width: 1000px;
+  margin: 35px auto;
+}
+
+.tabs {
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+    &:hover {
+      opacity: 0.7;
+      transition: 0.3s;
+    }
+  }
+}
