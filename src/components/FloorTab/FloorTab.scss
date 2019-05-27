@@ -3,3 +3,14 @@
   display: flex;
   justify-content: space-between;
 }
+
+.map {
+  flex: 0 0 70%;
+}
+
+.worker {
+  flex: 0 0 30%;
+  span {
+    color: #2196f3;
+  }
+}

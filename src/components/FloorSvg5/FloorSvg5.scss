@@ -1,5 +1,6 @@
 svg {
   width: 100%;
+  height: auto;
 }
 
 .st0 {
@@ -12,4 +13,8 @@ svg {
 
 .one-place {
   cursor: pointer;
+}
+
+.selected {
+  fill: #2196f3;
 }
